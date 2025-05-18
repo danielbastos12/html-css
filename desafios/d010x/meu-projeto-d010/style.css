@@ -1,0 +1,147 @@
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(92, 201, 154);
+}
+
+.idroid-font {
+    font-family: idroid, sans-serif;
+    color: rgb(18, 100, 65);
+}
+
+p {
+    text-indent: 20px;
+}
+
+header {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgb(35, 199, 128), rgb(18, 100, 65));
+    position: relative;
+    height: 150px;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.334);
+}
+
+ul#navegador {
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#navegador > li {
+    margin-left: 40px;
+    display: inline;
+}
+
+ul#navegador > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+ul#navegador > li > a:hover {
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    margin: 0px auto;
+    background-color: white;
+    width: 840px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.334);
+}
+
+section {
+    padding: 30px 20px;
+}
+
+section > h2 {
+    margin: 0px;
+}
+
+section > h3 {
+    padding-left: 20px;
+    background-image: linear-gradient(90deg, rgba(35, 199, 128, 0.307), white);
+}
+
+img {
+    position: relative;
+    margin: 0px auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+section#video {
+    background-color: rgb(18, 100, 65);
+    /*rgb(0, 82, 40);*/
+}
+
+iframe {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+aside {
+    background-color: rgb(181, 228, 208);
+    padding: 1px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+}
+
+h2#extra {
+    font-size: 1em;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(65, 180, 130);
+    color: white;
+}
+
+.lista-duas-colunas {
+    list-style: none; Remove os marcadores da lista */
+    padding: 0; /* Remove o espaçamento padrão da lista */
+    /*margin: 0;  Remove o espaçamento padrão da lista */
+}
+
+.lista-duas-colunas li {
+    float: left; /* Faz com que os itens flutuem para a esquerda */
+    width: 50%; /* Cada item ocupa 50% da largura da lista */
+    box-sizing: border-box;  Inclui o padding e a borda no cálculo da largura */
+    /* padding: 0.5em; Espaçamento entre os itens */
+}
+
+.lista-duas-colunas li:nth-child(odd) { /* Seleciona os itens de índice ímpar */
+    clear: left; /* Garante que o próximo item comece na nova coluna */
+}
+
+a#android-history {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(18, 100, 65);
+}
+
+a#android-history:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(18, 100, 65);
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    margin-bottom: 0px;
+    padding: 5px;
+}
