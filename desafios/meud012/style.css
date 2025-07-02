@@ -1,0 +1,85 @@
+
+
+body {
+    margin: 0;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+}
+
+.cabecalho {
+    color: white;
+}
+
+h1.cabecalho {
+    margin: 0;
+    font-size: 5em;
+}
+
+p.cabecalho {
+    font-size: 1.2em;
+}
+
+a.cabecalho {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.cabecalho:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 3em;
+}
+
+main > section {
+    padding: 60px;
+}
+
+main > section > p {
+    width: max-content;
+    line-height: 2em;
+    margin: 0px;
+}
+
+.comFundo > p {
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;
+}
+
+#fundo1 {
+    background: black url('imagens/background001.jpg') center top/cover no-repeat fixed;
+}
+
+#fundo2 {
+    background: black url('imagens/background002.jpg') center top/cover no-repeat fixed;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#rodape {
+    margin: 0;
+    color: white;
+}
+
+#rodape > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#rodape > a:hover {
+    text-decoration: underline;
+}
